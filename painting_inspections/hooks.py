@@ -11,15 +11,15 @@ app_license = "mit"
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "painting_inspections",
-# 		"logo": "/assets/painting_inspections/logo.png",
-# 		"title": "Painting Inspections",
-# 		"route": "/painting_inspections",
-# 		"has_permission": "painting_inspections.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+	{
+		"name": "painting_inspections",
+		"logo": "/assets/painting_inspections/images/painting-inspections-icon.png",
+		"title": "Painting Inspections",
+		"route": "/app/painting-inspection",
+		"description": "Painting inspection management",
+	}
+]
 
 # Includes in <head>
 # ------------------
