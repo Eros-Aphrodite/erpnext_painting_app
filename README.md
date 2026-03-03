@@ -1,58 +1,49 @@
 ### Painting Inspections
 
-Painting inspection management
+A small Frappe app for capturing **interior and exterior painting inspections** in a single structured form.
 
-### Goals
+### Features
 
-- Provide a **single Painting Inspection form** for painting project leads and inspection scope checks
-- Capture **contact details**, **phone**, **email**, **dates**, and **responsible user**
-- Track **value** (currency) and **tags**
-- Workflow status: **New** → **In Progress** → **Done**
-- Attach a **primary image** for the inspection
-- Organize details by **Details**, **INTERIOR**, and **EXTERIOR** tabs
-- **Description** child table for multi-line description items
-- Free-form **notes** for documenting findings
-
-### What's included
-
-- `Painting Inspection` DocType with contact, dates, value, status, image, and tabbed layout (Details, INTERIOR, EXTERIOR)
-- `Painting Inspection Description` child table for description lines
-- Desk shortcut at `/app/painting-inspection`
+- **One Inspection form** per job, with contact details, dates, value, tags, status and a main image.
+- **Details tab** for general information and a `Painting Inspection Description` child table for multi‑line notes.
+- **INTERIOR tab** with three fixed "Area" blocks (left/right layout) including:
+  - Area name (Kitchen, Living, Bedrooms, Full Repaint, etc.).
+  - Walls / Ceiling / Doors / Windows / Skert / Floor checkboxes.
+  - Substrate selects for each item (e.g. Plasterboard, Fibre Cement, Timber, Aluminum, Concrete, Tiles…).
+  - Width / Length / Height and free‑text notes.
+  - Six interior image uploads arranged in a 3×2 grid.
+- **EXTERIOR tab** with fields for:
+  - House type (Single Store, Double Story, 3 Level House, Elevated, etc.).
+  - Wall substrate and side areas (Side 1–6 / m²).
+  - Door and window substrates, soffit, fascia, gutters.
+  - Deck floor, balustrade, posts, ceilings, raked ceilings and porch areas.
+  - Fence type and length, plus multiple notes fields and an overall exterior notes field.
 
 ### Installation
 
-You can install this app using the [bench](https://github.com/frappe/bench) CLI:
+Install using the [bench](https://github.com/frappe/bench) CLI:
 
 ```bash
-cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch develop
-bench install-app painting_inspections
+cd /path/to/your/frappe-bench
+bench get-app painting_inspections https://github.com/Eros-Aphrodite/erpnext_painting_app.git
+bench --site your-site-name install-app painting_inspections
 ```
 
-### Contributing
+After installing, go to the desk and open:
 
-This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
+- **Painting Inspection**: `/app/painting-inspection`
+
+### Development
+
+- App name: `painting_inspections`
+- Built for the Frappe/ERPNext ecosystem.
+
+To work on the app:
 
 ```bash
-cd apps/painting_inspections
-pre-commit install
+cd /home/jupiter/frappe/frappe-bench/apps/painting_inspections
 ```
-
-Pre-commit is configured to use the following tools for checking and formatting your code:
-
-- ruff
-- eslint
-- prettier
-- pyupgrade
-
-### CI
-
-This app can use GitHub Actions for CI. The following workflows are configured:
-
-- CI: Installs this app and runs unit tests on every push to `develop` branch.
-- Linters: Runs [Frappe Semgrep Rules](https://github.com/frappe/semgrep-rules) and [pip-audit](https://pypi.org/project/pip-audit/) on every pull request.
-
 
 ### License
 
-mit
+MIT
