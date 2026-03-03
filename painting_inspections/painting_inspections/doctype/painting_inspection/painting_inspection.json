@@ -1,0 +1,182 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "autoname": "naming_series:",
+ "creation": "2026-03-03 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "column_contact",
+  "contact",
+  "phone",
+  "email",
+  "date",
+  "dates",
+  "notes",
+  "column_responsible",
+  "responsible",
+  "value",
+  "tags",
+  "status",
+  "image",
+  "tab_details",
+  "section_description",
+  "description",
+  "tab_interior",
+  "interior_notes",
+  "tab_exterior",
+  "exterior_notes"
+ ],
+ "fields": [
+  {
+   "default": "PINS-.YYYY.-",
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Series",
+   "options": "PINS-.YYYY.-"
+  },
+  {
+   "fieldname": "column_contact",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contact",
+   "fieldtype": "Data",
+   "label": "Contact"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "dates",
+   "fieldtype": "Date",
+   "label": "Dates"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Notes",
+   "description": "Type down your notes here..."
+  },
+  {
+   "fieldname": "column_responsible",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "responsible",
+   "fieldtype": "Link",
+   "label": "Responsible",
+   "options": "User"
+  },
+  {
+   "default": "0",
+   "fieldname": "value",
+   "fieldtype": "Currency",
+   "label": "Value"
+  },
+  {
+   "fieldname": "tags",
+   "fieldtype": "Data",
+   "label": "Tags"
+  },
+  {
+   "default": "New",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "New\nIn Progress\nDone"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
+  },
+  {
+   "fieldname": "tab_details",
+   "fieldtype": "Tab Break",
+   "label": "Details"
+  },
+  {
+   "fieldname": "section_description",
+   "fieldtype": "Section Break",
+   "label": "Description"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Table",
+   "label": "Description",
+   "options": "Painting Inspection Description"
+  },
+  {
+   "fieldname": "tab_interior",
+   "fieldtype": "Tab Break",
+   "label": "INTERIOR"
+  },
+  {
+   "fieldname": "interior_notes",
+   "fieldtype": "Small Text",
+   "label": "Interior Notes"
+  },
+  {
+   "fieldname": "tab_exterior",
+   "fieldtype": "Tab Break",
+   "label": "EXTERIOR"
+  },
+  {
+   "fieldname": "exterior_notes",
+   "fieldtype": "Small Text",
+   "label": "Exterior Notes"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-03-03 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Painting Inspections",
+ "name": "Painting Inspection",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "read": 1,
+   "role": "All",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "contact"
+}
