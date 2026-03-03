@@ -94,8 +94,38 @@
   "interior_image_5",
   "interior_image_6",
   "tab_exterior",
+  "ext_type",
+  "ext_substrate",
+  "ext_side1_m2",
+  "ext_side2_m2",
+  "ext_side3_m2",
+  "ext_side4_m2",
+  "ext_side5_m2",
+  "ext_side6_m2",
+  "ext_door",
+  "ext_door_substrate",
+  "ext_window",
+  "ext_window_substrate",
+  "ext_soffit",
+  "ext_fascia",
+  "ext_gutter",
+  "ext_notes_left",
+  "ext_deck_floor",
+  "ext_deck_floor_m2",
+  "ext_deck_balustrade",
+  "ext_deck_balustrade_length",
+  "ext_deck_post",
+  "ext_deck_post_length",
+  "ext_deck_ceiling",
+  "ext_raked_ceiling",
+  "ext_raked_ceiling_m2",
+  "ext_porch_m2",
+  "ext_fence",
+  "ext_fence_length",
+  "ext_notes_mid",
+  "ext_notes_right",
   "exterior_notes"
- ],
+  ],
  "fields": [
   {
    "default": "PINS-.YYYY.-",
@@ -559,6 +589,163 @@
    "fieldname": "tab_exterior",
    "fieldtype": "Tab Break",
    "label": "EXTERIOR"
+  },
+  {
+   "fieldname": "ext_type",
+   "fieldtype": "Select",
+   "label": "Type",
+   "options": "Single Store\nDouble Story\n3 Level House\nSingle Story Elevated\nDoble Story Elevated"
+  },
+  {
+   "fieldname": "ext_substrate",
+   "fieldtype": "Select",
+   "label": "Substrate",
+   "options": "Weatherboard Timber\nFC Cement Weatherboard\nFC Cladding with timber\nRendered Walls\nTexturated Walls"
+  },
+  {
+   "fieldname": "ext_side1_m2",
+   "fieldtype": "Float",
+   "label": "Side 1 / m2"
+  },
+  {
+   "fieldname": "ext_side2_m2",
+   "fieldtype": "Float",
+   "label": "Side 2 / m2"
+  },
+  {
+   "fieldname": "ext_side3_m2",
+   "fieldtype": "Float",
+   "label": "Side 3 / m2"
+  },
+  {
+   "fieldname": "ext_side4_m2",
+   "fieldtype": "Float",
+   "label": "Side 4 / m2"
+  },
+  {
+   "fieldname": "ext_side5_m2",
+   "fieldtype": "Float",
+   "label": "Side 5 / m2"
+  },
+  {
+   "fieldname": "ext_side6_m2",
+   "fieldtype": "Float",
+   "label": "Side 6 / m2"
+  },
+  {
+   "fieldname": "ext_door",
+   "fieldtype": "Check",
+   "label": "Door"
+  },
+  {
+   "fieldname": "ext_door_substrate",
+   "fieldtype": "Select",
+   "label": "Substrate",
+   "options": "Timber\nAluminum\nPVC"
+  },
+  {
+   "fieldname": "ext_window",
+   "fieldtype": "Check",
+   "label": "Window"
+  },
+  {
+   "fieldname": "ext_window_substrate",
+   "fieldtype": "Select",
+   "label": "Substrate",
+   "options": "Timber\nAluminum\nPVC"
+  },
+  {
+   "fieldname": "ext_soffit",
+   "fieldtype": "Select",
+   "label": "Soffit",
+   "options": "FC Lining\nTimber"
+  },
+  {
+   "fieldname": "ext_fascia",
+   "fieldtype": "Select",
+   "label": "Fascia",
+   "options": "Timber\nColourbond"
+  },
+  {
+   "fieldname": "ext_gutter",
+   "fieldtype": "Check",
+   "label": "Gutter"
+  },
+  {
+   "fieldname": "ext_notes_left",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "ext_deck_floor",
+   "fieldtype": "Check",
+   "label": "Deck Floor"
+  },
+  {
+   "fieldname": "ext_deck_floor_m2",
+   "fieldtype": "Float",
+   "label": "m2"
+  },
+  {
+   "fieldname": "ext_deck_balustrade",
+   "fieldtype": "Check",
+   "label": "Deck Balustrade"
+  },
+  {
+   "fieldname": "ext_deck_balustrade_length",
+   "fieldtype": "Float",
+   "label": "Length"
+  },
+  {
+   "fieldname": "ext_deck_post",
+   "fieldtype": "Check",
+   "label": "Deck Post"
+  },
+  {
+   "fieldname": "ext_deck_post_length",
+   "fieldtype": "Float",
+   "label": "Length"
+  },
+  {
+   "fieldname": "ext_deck_ceiling",
+   "fieldtype": "Check",
+   "label": "Deck Ceiling"
+  },
+  {
+   "fieldname": "ext_raked_ceiling",
+   "fieldtype": "Check",
+   "label": "Raked Ceiling"
+  },
+  {
+   "fieldname": "ext_raked_ceiling_m2",
+   "fieldtype": "Float",
+   "label": "m2"
+  },
+  {
+   "fieldname": "ext_porch_m2",
+   "fieldtype": "Float",
+   "label": "Porch m2"
+  },
+  {
+   "fieldname": "ext_fence",
+   "fieldtype": "Select",
+   "label": "Fence",
+   "options": "Timber\nRender\nTimber with Render Columns\nTimber Screen\nMetal Screen"
+  },
+  {
+   "fieldname": "ext_fence_length",
+   "fieldtype": "Float",
+   "label": "Length"
+  },
+  {
+   "fieldname": "ext_notes_mid",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "ext_notes_right",
+   "fieldtype": "Small Text",
+   "label": "Notes"
   },
   {
    "fieldname": "exterior_notes",
