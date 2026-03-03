@@ -1,11 +1,11 @@
 {
  "actions": [],
  "autoname": "naming_series:",
- "creation": "2026-03-03 00:00:00",
+ "creation": "2026-03-04 01:18:29.079631",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
- "field_order": [
+  "field_order": [
   "naming_series",
   "column_contact",
   "contact",
@@ -24,8 +24,75 @@
   "section_description",
   "description",
   "tab_interior",
-  "interior_area",
+  "int_area1_area",
+  "int_area1_walls",
+  "int_area1_walls_substrate",
+  "int_area1_ceiling",
+  "int_area1_ceiling_substrate",
+  "int_area1_doors",
+  "int_area1_doors_substrate",
+  "int_area1_windows",
+  "int_area1_windows_substrate",
+  "int_area1_skert",
+  "int_area1_area_width",
+  "int_area1_area_length",
+  "int_area1_area_height",
+  "int_area1_notes",
+  "int_area1_floor",
+  "int_area1_floor_substrate",
+  "int_area1_width",
+  "int_area1_length",
+  "int_area1_notes2",
+  "int_area1_column_break",
+  "int_area2_area",
+  "int_area2_walls",
+  "int_area2_walls_substrate",
+  "int_area2_ceiling",
+  "int_area2_ceiling_substrate",
+  "int_area2_doors",
+  "int_area2_doors_substrate",
+  "int_area2_windows",
+  "int_area2_windows_substrate",
+  "int_area2_skert",
+  "int_area2_area_width",
+  "int_area2_area_length",
+  "int_area2_area_height",
+  "int_area2_notes",
+  "int_area2_floor",
+  "int_area2_floor_substrate",
+  "int_area2_width",
+  "int_area2_length",
+  "int_area2_notes2",
+  "int_area_row2_section",
+  "int_area3_area",
+  "int_area3_walls",
+  "int_area3_walls_substrate",
+  "int_area3_ceiling",
+  "int_area3_ceiling_substrate",
+  "int_area3_doors",
+  "int_area3_doors_substrate",
+  "int_area3_windows",
+  "int_area3_windows_substrate",
+  "int_area3_skert",
+  "int_area3_area_width",
+  "int_area3_area_length",
+  "int_area3_area_height",
+  "int_area3_notes",
+  "int_area3_floor",
+  "int_area3_floor_substrate",
+  "int_area3_width",
+  "int_area3_length",
+  "int_area3_notes2",
+  "int_area3_column_break",
   "interior_notes",
+  "section_interior_images",
+  "interior_image_1",
+  "interior_image_2",
+  "interior_image_3",
+  "interior_images_column_break",
+  "interior_image_4",
+  "interior_image_5",
+  "interior_image_6",
   "tab_exterior",
   "exterior_notes"
  ],
@@ -125,14 +192,350 @@
    "options": "Painting Inspection Description"
   },
   {
-   "fieldname": "tab_interior",
-   "fieldtype": "Tab Break",
-   "label": "INTERIOR"
+  "fieldname": "tab_interior",
+  "fieldtype": "Tab Break",
+  "label": "INTERIOR"
   },
   {
-   "fieldname": "interior_notes",
-   "fieldtype": "Small Text",
-   "label": "Interior Notes"
+  "fieldname": "int_area1_area",
+  "fieldtype": "Select",
+  "label": "Area"
+  },
+  {
+  "fieldname": "int_area1_walls",
+  "fieldtype": "Check",
+  "label": "Walls"
+  },
+  {
+  "fieldname": "int_area1_walls_substrate",
+  "fieldtype": "Select",
+  "label": "Substrate"
+  },
+  {
+  "fieldname": "int_area1_ceiling",
+  "fieldtype": "Check",
+  "label": "Ceiling"
+  },
+  {
+  "fieldname": "int_area1_ceiling_substrate",
+  "fieldtype": "Select",
+  "label": "Substrate"
+  },
+  {
+  "fieldname": "int_area1_doors",
+  "fieldtype": "Check",
+  "label": "Doors"
+  },
+  {
+  "fieldname": "int_area1_doors_substrate",
+  "fieldtype": "Select",
+  "label": "Substrate"
+  },
+  {
+  "fieldname": "int_area1_windows",
+  "fieldtype": "Check",
+  "label": "Window"
+  },
+  {
+  "fieldname": "int_area1_windows_substrate",
+  "fieldtype": "Select",
+  "label": "Substrate"
+  },
+  {
+  "fieldname": "int_area1_skert",
+  "fieldtype": "Check",
+  "label": "Skert"
+  },
+  {
+  "fieldname": "int_area1_area_width",
+  "fieldtype": "Float",
+  "label": "Area Width"
+  },
+  {
+  "fieldname": "int_area1_area_length",
+  "fieldtype": "Float",
+  "label": "Area Length"
+  },
+  {
+  "fieldname": "int_area1_area_height",
+  "fieldtype": "Float",
+  "label": "Area Height"
+  },
+  {
+  "fieldname": "int_area1_notes",
+  "fieldtype": "Small Text",
+  "label": "Notes"
+  },
+  {
+  "fieldname": "int_area1_floor",
+  "fieldtype": "Check",
+  "label": "Floor"
+  },
+  {
+  "fieldname": "int_area1_floor_substrate",
+  "fieldtype": "Select",
+  "label": "Substrate"
+  },
+  {
+  "fieldname": "int_area1_width",
+  "fieldtype": "Float",
+  "label": "Width"
+  },
+  {
+  "fieldname": "int_area1_length",
+  "fieldtype": "Float",
+  "label": "Length"
+  },
+  {
+  "fieldname": "int_area1_notes2",
+  "fieldtype": "Small Text",
+  "label": "Notes"
+  },
+  {
+  "fieldname": "int_area1_column_break",
+  "fieldtype": "Column Break"
+  },
+  {
+  "fieldname": "int_area2_area",
+  "fieldtype": "Select",
+  "label": "Area"
+  },
+  {
+  "fieldname": "int_area2_walls",
+  "fieldtype": "Check",
+  "label": "Walls"
+  },
+  {
+  "fieldname": "int_area2_walls_substrate",
+  "fieldtype": "Select",
+  "label": "Substrate"
+  },
+  {
+  "fieldname": "int_area2_ceiling",
+  "fieldtype": "Check",
+  "label": "Ceiling"
+  },
+  {
+  "fieldname": "int_area2_ceiling_substrate",
+  "fieldtype": "Select",
+  "label": "Substrate"
+  },
+  {
+  "fieldname": "int_area2_doors",
+  "fieldtype": "Check",
+  "label": "Doors"
+  },
+  {
+  "fieldname": "int_area2_doors_substrate",
+  "fieldtype": "Select",
+  "label": "Substrate"
+  },
+  {
+  "fieldname": "int_area2_windows",
+  "fieldtype": "Check",
+  "label": "Window"
+  },
+  {
+  "fieldname": "int_area2_windows_substrate",
+  "fieldtype": "Select",
+  "label": "Substrate"
+  },
+  {
+  "fieldname": "int_area2_skert",
+  "fieldtype": "Check",
+  "label": "Skert"
+  },
+  {
+  "fieldname": "int_area2_area_width",
+  "fieldtype": "Float",
+  "label": "Area Width"
+  },
+  {
+  "fieldname": "int_area2_area_length",
+  "fieldtype": "Float",
+  "label": "Area Length"
+  },
+  {
+  "fieldname": "int_area2_area_height",
+  "fieldtype": "Float",
+  "label": "Area Height"
+  },
+  {
+  "fieldname": "int_area2_notes",
+  "fieldtype": "Small Text",
+  "label": "Notes"
+  },
+  {
+  "fieldname": "int_area2_floor",
+  "fieldtype": "Check",
+  "label": "Floor"
+  },
+  {
+  "fieldname": "int_area2_floor_substrate",
+  "fieldtype": "Select",
+  "label": "Substrate"
+  },
+  {
+  "fieldname": "int_area2_width",
+  "fieldtype": "Float",
+  "label": "Width"
+  },
+  {
+  "fieldname": "int_area2_length",
+  "fieldtype": "Float",
+  "label": "Length"
+  },
+  {
+  "fieldname": "int_area2_notes2",
+  "fieldtype": "Small Text",
+  "label": "Notes"
+  },
+  {
+  "fieldname": "int_area_row2_section",
+  "fieldtype": "Section Break"
+  },
+  {
+  "fieldname": "int_area3_area",
+  "fieldtype": "Select",
+  "label": "Area"
+  },
+  {
+  "fieldname": "int_area3_walls",
+  "fieldtype": "Check",
+  "label": "Walls"
+  },
+  {
+  "fieldname": "int_area3_walls_substrate",
+  "fieldtype": "Select",
+  "label": "Substrate"
+  },
+  {
+  "fieldname": "int_area3_ceiling",
+  "fieldtype": "Check",
+  "label": "Ceiling"
+  },
+  {
+  "fieldname": "int_area3_ceiling_substrate",
+  "fieldtype": "Select",
+  "label": "Substrate"
+  },
+  {
+  "fieldname": "int_area3_doors",
+  "fieldtype": "Check",
+  "label": "Doors"
+  },
+  {
+  "fieldname": "int_area3_doors_substrate",
+  "fieldtype": "Select",
+  "label": "Substrate"
+  },
+  {
+  "fieldname": "int_area3_windows",
+  "fieldtype": "Check",
+  "label": "Window"
+  },
+  {
+  "fieldname": "int_area3_windows_substrate",
+  "fieldtype": "Select",
+  "label": "Substrate"
+  },
+  {
+  "fieldname": "int_area3_skert",
+  "fieldtype": "Check",
+  "label": "Skert"
+  },
+  {
+  "fieldname": "int_area3_area_width",
+  "fieldtype": "Float",
+  "label": "Area Width"
+  },
+  {
+  "fieldname": "int_area3_area_length",
+  "fieldtype": "Float",
+  "label": "Area Length"
+  },
+  {
+  "fieldname": "int_area3_area_height",
+  "fieldtype": "Float",
+  "label": "Area Height"
+  },
+  {
+  "fieldname": "int_area3_notes",
+  "fieldtype": "Small Text",
+  "label": "Notes"
+  },
+  {
+  "fieldname": "int_area3_floor",
+  "fieldtype": "Check",
+  "label": "Floor"
+  },
+  {
+  "fieldname": "int_area3_floor_substrate",
+  "fieldtype": "Select",
+  "label": "Substrate"
+  },
+  {
+  "fieldname": "int_area3_width",
+  "fieldtype": "Float",
+  "label": "Width"
+  },
+  {
+  "fieldname": "int_area3_length",
+  "fieldtype": "Float",
+  "label": "Length"
+  },
+  {
+  "fieldname": "int_area3_notes2",
+  "fieldtype": "Small Text",
+  "label": "Notes"
+  },
+  {
+  "fieldname": "int_area3_column_break",
+  "fieldtype": "Column Break"
+  },
+  {
+  "fieldname": "interior_notes",
+  "fieldtype": "Small Text",
+  "label": "Interior Notes"
+  },
+  {
+   "fieldname": "section_interior_images",
+   "fieldtype": "Section Break",
+   "label": "Interior Images"
+  },
+  {
+   "fieldname": "interior_image_1",
+   "fieldtype": "Attach Image",
+   "label": "New Image 1"
+  },
+  {
+   "fieldname": "interior_image_2",
+   "fieldtype": "Attach Image",
+   "label": "New Image 2"
+  },
+  {
+   "fieldname": "interior_image_3",
+   "fieldtype": "Attach Image",
+   "label": "New Image 3"
+  },
+  {
+  "fieldname": "interior_images_column_break",
+  "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "interior_image_4",
+   "fieldtype": "Attach Image",
+   "label": "New Image 4"
+  },
+  {
+   "fieldname": "interior_image_5",
+   "fieldtype": "Attach Image",
+   "label": "New Image 5"
+  },
+  {
+   "fieldname": "interior_image_6",
+   "fieldtype": "Attach Image",
+   "label": "New Image 6"
   },
   {
    "fieldname": "tab_exterior",
@@ -143,18 +546,12 @@
    "fieldname": "exterior_notes",
    "fieldtype": "Small Text",
    "label": "Exterior Notes"
-  },
-  {
-   "fieldname": "interior_area",
-   "fieldtype": "Select",
-   "label": "Interior Area",
-   "options": "Kitchen\nLiving\nBathroom\nToilet\nBedroom 1\nBedroom 2\nBedroom 3\nBedroom 4\nEntrance\nGarage\nRumpus\nLaundry\nPassage/ Hall\nSunroom\nFull Repaint\nLower Floor Full Repaint\nUpper Floor Full Repaint"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-03-03 23:47:37.717224",
+ "modified": "2026-03-04 01:39:46.649956",
  "modified_by": "Administrator",
  "module": "Painting Inspections",
  "name": "Painting Inspection",
