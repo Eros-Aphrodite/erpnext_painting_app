@@ -25,7 +25,7 @@ frappe.ui.form.on("Painting Inspection", {
 				}
 			}
 
-			// Show every remaining tab header (Details, INTERIOR, EXTERIOR).
+			// Show every tab header (Details, Add details, INTERIOR, EXTERIOR).
 			$tabs_list.find(\".nav-item\").each((_, el) => {
 				const $item = $(el);
 				$item.removeClass(\"hide\").addClass(\"show\");

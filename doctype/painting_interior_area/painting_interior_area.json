@@ -1,0 +1,133 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "creation": "2026-03-03 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "area",
+  "walls",
+  "walls_substrate",
+  "ceiling",
+  "ceiling_substrate",
+  "doors",
+  "doors_substrate",
+  "windows",
+  "windows_substrate",
+  "skert",
+  "area_width",
+  "area_length",
+  "area_height",
+  "floor",
+  "floor_substrate",
+  "notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "area",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Area",
+   "options": "Kitchen\nLiving\nBathroom\nToilet\nBedroom 1\nBedroom 2\nBedroom 3\nBedroom 4\nEntrance\nGarage\nRumpus\nLaundry\nPassage/ Hall\nSunroom\nFull Repaint\nLower Floor Full Repaint\nUpper Floor Full Repaint",
+   "reqd": 1
+  },
+  {
+   "fieldname": "walls",
+   "fieldtype": "Check",
+   "label": "Walls"
+  },
+  {
+   "fieldname": "walls_substrate",
+   "fieldtype": "Select",
+   "label": "Walls Substrate",
+   "options": "Plasterboard\nFibre Cement\nVJ Boards\nTexturate"
+  },
+  {
+   "fieldname": "ceiling",
+   "fieldtype": "Check",
+   "label": "Ceiling"
+  },
+  {
+   "fieldname": "ceiling_substrate",
+   "fieldtype": "Select",
+   "label": "Ceiling Substrate",
+   "options": "Plasterboard\nFibre Cement\nVJ Boards\nTexturate\nCement Render"
+  },
+  {
+   "fieldname": "doors",
+   "fieldtype": "Check",
+   "label": "Doors"
+  },
+  {
+   "fieldname": "doors_substrate",
+   "fieldtype": "Select",
+   "label": "Doors Substrate",
+   "options": "Plasterboard\nFibre Cement\nVJ Boards\nTexturate\nCement Render"
+  },
+  {
+   "fieldname": "windows",
+   "fieldtype": "Check",
+   "label": "Windows"
+  },
+  {
+   "fieldname": "windows_substrate",
+   "fieldtype": "Select",
+   "label": "Windows Substrate",
+   "options": "Timber\nAluminum"
+  },
+  {
+   "fieldname": "skert",
+   "fieldtype": "Check",
+   "label": "Skert"
+  },
+  {
+   "fieldname": "area_width",
+   "fieldtype": "Float",
+   "label": "Area Width",
+   "precision": 2
+  },
+  {
+   "fieldname": "area_length",
+   "fieldtype": "Float",
+   "label": "Area Length",
+   "precision": 2
+  },
+  {
+   "fieldname": "area_height",
+   "fieldtype": "Float",
+   "label": "Area Height",
+   "precision": 2
+  },
+  {
+   "fieldname": "floor",
+   "fieldtype": "Check",
+   "label": "Floor"
+  },
+  {
+   "fieldname": "floor_substrate",
+   "fieldtype": "Select",
+   "label": "Floor Substrate",
+   "options": "Concrete\nTiles\nVinyl\nResurfaced"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 0,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-03-03 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Painting Inspections",
+ "name": "Painting Interior Area",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
+

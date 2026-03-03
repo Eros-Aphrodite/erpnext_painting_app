@@ -25,6 +25,7 @@
   "section_description",
   "description",
   "tab_interior",
+  "interior_area",
   "interior_notes",
   "tab_exterior",
   "exterior_notes"
@@ -128,6 +129,12 @@
    "fieldname": "tab_interior",
    "fieldtype": "Tab Break",
    "label": "INTERIOR"
+  },
+  {
+   "fieldname": "interior_area",
+   "fieldtype": "Select",
+   "label": "Interior Area",
+   "options": "Kitchen\nLiving\nBathroom\nToilet\nBedroom 1\nBedroom 2\nBedroom 3\nBedroom 4\nEntrance\nGarage\nRumpus\nLaundry\nPassage/ Hall\nSunroom\nFull Repaint\nLower Floor Full Repaint\nUpper Floor Full Repaint"
   },
   {
    "fieldname": "interior_notes",

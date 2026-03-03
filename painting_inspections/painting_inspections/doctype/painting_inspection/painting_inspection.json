@@ -1,8 +1,7 @@
 {
  "actions": [],
- "allow_rename": 0,
  "autoname": "naming_series:",
- "creation": "2026-03-03 00:00:00.000000",
+ "creation": "2026-03-03 00:00:00",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
@@ -25,6 +24,7 @@
   "section_description",
   "description",
   "tab_interior",
+  "interior_area",
   "interior_notes",
   "tab_exterior",
   "exterior_notes"
@@ -69,10 +69,10 @@
    "label": "Dates"
   },
   {
+   "description": "Type down your notes here...",
    "fieldname": "notes",
    "fieldtype": "Small Text",
-   "label": "Notes",
-   "description": "Type down your notes here..."
+   "label": "Notes"
   },
   {
    "fieldname": "column_responsible",
@@ -143,12 +143,18 @@
    "fieldname": "exterior_notes",
    "fieldtype": "Small Text",
    "label": "Exterior Notes"
+  },
+  {
+   "fieldname": "interior_area",
+   "fieldtype": "Select",
+   "label": "Interior Area",
+   "options": "Kitchen\nLiving\nBathroom\nToilet\nBedroom 1\nBedroom 2\nBedroom 3\nBedroom 4\nEntrance\nGarage\nRumpus\nLaundry\nPassage/ Hall\nSunroom\nFull Repaint\nLower Floor Full Repaint\nUpper Floor Full Repaint"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-03-03 00:00:00.000000",
+ "modified": "2026-03-03 23:47:37.717224",
  "modified_by": "Administrator",
  "module": "Painting Inspections",
  "name": "Painting Inspection",
@@ -175,6 +181,7 @@
    "write": 1
   }
  ],
+ "row_format": "Dynamic",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
