@@ -110,7 +110,7 @@
   },
   {
    "fieldname": "tab_details",
-   "fieldtype": "Tab Break",
+   "fieldtype": "Section Break",
    "label": "Details"
   },
   {
