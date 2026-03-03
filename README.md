@@ -2,6 +2,23 @@
 
 Painting inspection management
 
+### Goals
+
+- Provide a **single Painting Inspection form** for painting project leads and inspection scope checks
+- Capture **contact details**, **phone**, **email**, **dates**, and **responsible user**
+- Track **value** (currency) and **tags**
+- Workflow status: **New** → **In Progress** → **Done**
+- Attach a **primary image** for the inspection
+- Organize details by **Details**, **INTERIOR**, and **EXTERIOR** tabs
+- **Description** child table for multi-line description items
+- Free-form **notes** for documenting findings
+
+### What's included
+
+- `Painting Inspection` DocType with contact, dates, value, status, image, and tabbed layout (Details, INTERIOR, EXTERIOR)
+- `Painting Inspection Description` child table for description lines
+- Desk shortcut at `/app/painting-inspection`
+
 ### Installation
 
 You can install this app using the [bench](https://github.com/frappe/bench) CLI:
