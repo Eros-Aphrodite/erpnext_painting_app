@@ -199,7 +199,8 @@
   {
   "fieldname": "int_area1_area",
   "fieldtype": "Select",
-  "label": "Area"
+  "label": "Area",
+  "options": "Kitchen\nLiving\nBathroom\nToilet\nBedroom 1\nBedroom 2\nBedroom 3\nBedroom 4\nEntrance\nGarage\nRumpus\nLaundry\nPassage/ Hall\nSunroom\nFull Repaint\nLower Floor Full Repaint\nUpper Floor Full Repaint"
   },
   {
   "fieldname": "int_area1_walls",
@@ -209,7 +210,8 @@
   {
   "fieldname": "int_area1_walls_substrate",
   "fieldtype": "Select",
-  "label": "Substrate"
+  "label": "Substrate",
+  "options": "Plasterboard\nFibre Cement\nVJ Boards\nTexturate"
   },
   {
   "fieldname": "int_area1_ceiling",
@@ -219,7 +221,8 @@
   {
   "fieldname": "int_area1_ceiling_substrate",
   "fieldtype": "Select",
-  "label": "Substrate"
+  "label": "Substrate",
+  "options": "Plasterboard\nFibre Cement\nVJ Boards\nTexturate\nCement Render"
   },
   {
   "fieldname": "int_area1_doors",
@@ -229,7 +232,8 @@
   {
   "fieldname": "int_area1_doors_substrate",
   "fieldtype": "Select",
-  "label": "Substrate"
+  "label": "Substrate",
+  "options": "Plasterboard\nFibre Cement\nVJ Boards\nTexturate\nCement Render"
   },
   {
   "fieldname": "int_area1_windows",
@@ -239,7 +243,8 @@
   {
   "fieldname": "int_area1_windows_substrate",
   "fieldtype": "Select",
-  "label": "Substrate"
+  "label": "Substrate",
+  "options": "Timber\nAluminum"
   },
   {
   "fieldname": "int_area1_skert",
@@ -274,7 +279,8 @@
   {
   "fieldname": "int_area1_floor_substrate",
   "fieldtype": "Select",
-  "label": "Substrate"
+  "label": "Substrate",
+  "options": "Concrete\nTiles\nVinyl\nResurfaced"
   },
   {
   "fieldname": "int_area1_width",
@@ -298,7 +304,8 @@
   {
   "fieldname": "int_area2_area",
   "fieldtype": "Select",
-  "label": "Area"
+  "label": "Area",
+  "options": "Kitchen\nLiving\nBathroom\nToilet\nBedroom 1\nBedroom 2\nBedroom 3\nBedroom 4\nEntrance\nGarage\nRumpus\nLaundry\nPassage/ Hall\nSunroom\nFull Repaint\nLower Floor Full Repaint\nUpper Floor Full Repaint"
   },
   {
   "fieldname": "int_area2_walls",
@@ -308,7 +315,8 @@
   {
   "fieldname": "int_area2_walls_substrate",
   "fieldtype": "Select",
-  "label": "Substrate"
+  "label": "Substrate",
+  "options": "Plasterboard\nFibre Cement\nVJ Boards\nTexturate"
   },
   {
   "fieldname": "int_area2_ceiling",
@@ -318,7 +326,8 @@
   {
   "fieldname": "int_area2_ceiling_substrate",
   "fieldtype": "Select",
-  "label": "Substrate"
+  "label": "Substrate",
+  "options": "Plasterboard\nFibre Cement\nVJ Boards\nTexturate\nCement Render"
   },
   {
   "fieldname": "int_area2_doors",
@@ -328,7 +337,8 @@
   {
   "fieldname": "int_area2_doors_substrate",
   "fieldtype": "Select",
-  "label": "Substrate"
+  "label": "Substrate",
+  "options": "Plasterboard\nFibre Cement\nVJ Boards\nTexturate\nCement Render"
   },
   {
   "fieldname": "int_area2_windows",
@@ -338,7 +348,8 @@
   {
   "fieldname": "int_area2_windows_substrate",
   "fieldtype": "Select",
-  "label": "Substrate"
+  "label": "Substrate",
+  "options": "Timber\nAluminum"
   },
   {
   "fieldname": "int_area2_skert",
@@ -373,7 +384,8 @@
   {
   "fieldname": "int_area2_floor_substrate",
   "fieldtype": "Select",
-  "label": "Substrate"
+  "label": "Substrate",
+  "options": "Concrete\nTiles\nVinyl\nResurfaced"
   },
   {
   "fieldname": "int_area2_width",
@@ -397,7 +409,8 @@
   {
   "fieldname": "int_area3_area",
   "fieldtype": "Select",
-  "label": "Area"
+  "label": "Area",
+  "options": "Kitchen\nLiving\nBathroom\nToilet\nBedroom 1\nBedroom 2\nBedroom 3\nBedroom 4\nEntrance\nGarage\nRumpus\nLaundry\nPassage/ Hall\nSunroom\nFull Repaint\nLower Floor Full Repaint\nUpper Floor Full Repaint"
   },
   {
   "fieldname": "int_area3_walls",
@@ -407,7 +420,8 @@
   {
   "fieldname": "int_area3_walls_substrate",
   "fieldtype": "Select",
-  "label": "Substrate"
+  "label": "Substrate",
+  "options": "Plasterboard\nFibre Cement\nVJ Boards\nTexturate"
   },
   {
   "fieldname": "int_area3_ceiling",
@@ -417,7 +431,8 @@
   {
   "fieldname": "int_area3_ceiling_substrate",
   "fieldtype": "Select",
-  "label": "Substrate"
+  "label": "Substrate",
+  "options": "Plasterboard\nFibre Cement\nVJ Boards\nTexturate\nCement Render"
   },
   {
   "fieldname": "int_area3_doors",
@@ -427,7 +442,8 @@
   {
   "fieldname": "int_area3_doors_substrate",
   "fieldtype": "Select",
-  "label": "Substrate"
+  "label": "Substrate",
+  "options": "Plasterboard\nFibre Cement\nVJ Boards\nTexturate\nCement Render"
   },
   {
   "fieldname": "int_area3_windows",
@@ -437,7 +453,8 @@
   {
   "fieldname": "int_area3_windows_substrate",
   "fieldtype": "Select",
-  "label": "Substrate"
+  "label": "Substrate",
+  "options": "Timber\nAluminum"
   },
   {
   "fieldname": "int_area3_skert",
@@ -472,7 +489,8 @@
   {
   "fieldname": "int_area3_floor_substrate",
   "fieldtype": "Select",
-  "label": "Substrate"
+  "label": "Substrate",
+  "options": "Concrete\nTiles\nVinyl\nResurfaced"
   },
   {
   "fieldname": "int_area3_width",
